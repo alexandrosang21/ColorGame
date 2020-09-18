@@ -1,0 +1,89 @@
+body{
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Press Start 2P', "Avenir";
+}
+
+h1{
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    padding: 2%;
+    line-height: 1.5em;
+}
+
+#scoreDisplay{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: block;
+    text-align: center;
+    color:  steelblue;
+}
+
+span{
+    text-transform: uppercase;
+}
+
+button{
+    border: none;
+    background-color: none;
+    text-transform:  uppercase;
+    outline: none;
+    height: 100%;
+    font-family: 'Press Start 2P', "Avenir";
+    color: steelblue;
+    transition: all 500ms;
+}
+
+button:hover{
+    color: white;
+    background-color: steelblue;
+    
+}
+
+#colorDisplay{
+    font-size: 1.2em;
+}
+
+#messageDisplay{
+    width: 30%;
+    display: inline-block;
+    word-wrap: normal;
+}
+
+#container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.square{
+    background-color: aquamarine;
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.6%;
+    border-radius: 50%;
+    transition: background-color 1100ms;
+}
+
+.squareExtra{
+    background-color: aquamarine;
+    width: 15%;
+    padding-bottom: 15%;
+    float: left;
+    margin: 1.6%;
+    border-radius: 50%;
+    transition: background-color 1100ms;
+}
+
+#stripe{
+    background-color: whitesmoke;
+    height: 50px;
+    text-align: center;
+}
+
+.selected{
+    background-color: steelblue;
+    color:white;
+}
